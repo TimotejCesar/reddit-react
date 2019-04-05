@@ -1,0 +1,5 @@
+.preview-text {
+    text-align: left;
+    padding-left: 10px;
+    color: var(--dark-preview-font-color);
+}

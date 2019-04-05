@@ -1,0 +1,142 @@
+.post .subreddit a {
+    text-decoration: none ;
+    color: var(--dark-main-font-color) ;
+}
+.post .subreddit a:hover {
+    text-decoration: none ;
+    color: var(--dark-main-font-color) ;
+}
+
+.post .subreddit a {
+    text-decoration: none ;
+}
+.post .subreddit a:hover {
+    text-decoration: underline ;
+}
+
+.post .author a {
+    text-decoration: none ;
+    color: var(--dark-light-font-color) ;
+}
+.post .author a:hover {
+    text-decoration: underline ;
+    color: var(--dark-light-font-color) ;
+}
+
+.post {
+    position: relative;
+    background-color: var(--dark-element-background);
+    margin-bottom: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    fill: #ffffff;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(52, 53, 54);
+    border-image: initial;
+    transition: color 0.5s ease 0s, fill 0.5s ease 0s, box-shadow 0.5s ease 0s;
+    padding-left: 40px;
+    border-radius: 4px;
+    padding-top: 8px;
+}
+
+.post:hover {
+    border-color: rgb(129, 131, 132);
+}
+
+.post .content .title {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    padding: 0 10px 5px;
+}
+
+.post .content {
+    padding: 0;
+}
+
+.post .upvote-count {
+    position: absolute;
+    width: 40px;
+    left: 0;
+    top: 0;
+    padding: 8px 4px;
+    height: 100%;
+    background-color: var(--dark-light-background);
+}
+
+.post .header {
+    font-size: 12px;
+    font-weight: 700;
+    display: inline;
+    color: var(--dark-light-font-color);
+    line-height: 20px;
+    vertical-align: baseline;
+    text-decoration: none;
+    padding: 0 10px 5px;
+}
+
+.post .header div {
+    margin-left: 5px;
+}
+.post .header div:first-child {
+    margin-left: 0;
+}
+
+.post .header .subreddit {
+    color: var(--dark-main-font-color);
+}
+
+.post .upvote-count .count {
+    color: var(--dark-main-font-color);
+    font-weight: 700;
+    font-size: 12px;
+    margin: 5px 0;
+}
+.post .upvote-count button {
+    padding: 4px;
+    border: none;
+}
+.post .upvote-count button:hover,
+.post .upvote-count button:active {
+    border: none;
+}
+
+.post .upvote-count button:hover .arrow.upvote {
+    color: var(--upvote-color);
+}
+
+.post .upvote-count button:hover .arrow.downvote {
+    color: var(--downvote-color);
+}
+
+.post .content img {
+    padding: 0;
+    max-height: 512px;
+}
+
+.post .upvote-count .arrow {
+    color: var(--dark-light-font-color);
+    font-size: 16px;
+    height: 16px;
+}
+
+.post .footer {
+    font-size: 12px;
+    color: var(--dark-light-font-color);
+}
+
+.post .footer a {
+    color: var(--dark-light-font-color);
+    margin-left: 10px;
+    padding: 4px;
+}
+
+.post .footer a svg {
+    margin-right: 5px;
+}
+
+.post .footer a:hover {
+    background-color: var(--dark-link-hover-color);
+}
